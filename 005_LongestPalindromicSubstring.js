@@ -12,7 +12,7 @@ var longestPalindrome = function(s) {
         }
 
         var curr_start = start;
-        var curr_end = end
+        var curr_end = end;
         while(curr_start - 1 >= 0 && curr_end + 1 < s.length && s.charAt(curr_start - 1) === s.charAt(curr_end + 1)) {
             curr_start--;
             curr_end++
