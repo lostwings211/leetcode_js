@@ -22,7 +22,6 @@ var swapPairs = function(head) {
         next_next_node.next = next_node;
         next_node.next = end_node;
         curr_head = next_node
-
     }
     return pre_head.next;
 };
